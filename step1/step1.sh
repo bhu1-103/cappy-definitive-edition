@@ -1,4 +1,5 @@
 #!/usr/bin/zsh
-
+#
 mkdir x-y_output
-java x-y.java
+javac AI_challenge_sce1.java Wlan.java
+java AI_challenge_sce1
