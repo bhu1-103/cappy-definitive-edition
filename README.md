@@ -1,6 +1,6 @@
 # cappy-definitive-edition
 
-# 3/4
+# 4/5 only
 
 final
 
