@@ -1,6 +1,6 @@
 # cappy-definitive-edition
 
-`apt install openjdk-21-jdk neovim zsh git`
+`apt install openjdk-21-jdk neovim zsh git python3-pandas`
 
 final
 
