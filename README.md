@@ -1,6 +1,6 @@
 # cappy-definitive-edition
 
-`sudo apt install openjdk-21-jdk`
+`apt install openjdk-21-jdk neovim zsh git`
 
 final
 
