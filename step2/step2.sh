@@ -2,4 +2,4 @@
 
 mkdir -p z_output
 rm z_output/*
-python oriz.py
+python3 oriz.py
