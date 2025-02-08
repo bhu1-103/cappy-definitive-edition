@@ -1,6 +1,6 @@
 # cappy-definitive-edition
 
-sudo apt install openjdk-21-jdk
+`sudo apt install openjdk-21-jdk`
 
 final
 
