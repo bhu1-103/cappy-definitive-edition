@@ -12,7 +12,7 @@ DEPLOYMENT_ID=0
 input="../step3/sce1a_output.txt"
 output_folder="sce1a_output"
 sce_id="sce1a"
-if [ -d "$output_folder" ]; then rm -Rf $output_folder; fi
+#if [ -d "$output_folder" ]; then rm -Rf $output_folder; fi
 mkdir -p $output_folder
 
 while IFS= read -r line
