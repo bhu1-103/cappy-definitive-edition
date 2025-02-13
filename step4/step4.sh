@@ -44,4 +44,5 @@ do
     line_id=$((line_id+1))
   fi
 done < "$input"
-./rename.sh
+./rename-throughput.sh
+./rename-airtime.sh
