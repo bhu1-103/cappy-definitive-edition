@@ -7,4 +7,5 @@ rm step4/sce1a_output/rssi/*.csv
 rm step4/sce1a_output/sinr/*.csv
 rm step4/sce1a_output/interference/*.csv
 rm step4/sce1a_output/airtime/*.csv
+rm step5/*.csv
 #rm step4/sce1a_output/*
