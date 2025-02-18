@@ -14,8 +14,8 @@ cd step2; ./step2.sh;
 #./points.sh | wl-copy; pwd; ./v0.4/pls-work $(wl-paste)
 #xdotool key super+f; red && 
 red && echo -n "Step 2 done" && echo -e "\033[0m";cd ../
-cd step3; bash step3.sh; red && echo -n "Step 3 done" && echo -e "\033[0m";cd ../
-cd step4; ./step4.sh; red && echo -n "Step 4 done" && echo -e "\033[0m"
+cd step3; bash step3.sh; red && echo -n "Step 3 done" && echo -e "\033[0m"; cd ../
+cd step4; ./step4.sh; red && echo -n "Step 4 done" && echo -e "\033[0m"; cd ../
 cd step5; ./step5.sh; red && echo -n "Step 5 done" && echo -e "\033[0m"
 #cp -r sce1a_output/rssi rssi
 #cp -r sce1a_output/throughput thruput
