@@ -7,8 +7,8 @@ alias blue='echo -e -n "\033[38;2;0;0;255m"'
 ./create-folders.sh
 cd step1;
 #nvim AI_challenge_sce1.java;
-echo -n "enter your preferred text editor: "
-read EDITOR
+#echo -n "enter your preferred text editor: "
+#read EDITOR
 $EDITOR input-java.csv; ./step1.sh; red && echo -n "Step 1 done" && echo -e "\033[0m" ;cd ../
 cd step2; ./step2.sh; 
 #./points.sh | wl-copy; pwd; ./v0.4/pls-work $(wl-paste)
