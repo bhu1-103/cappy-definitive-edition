@@ -13,6 +13,7 @@ mega-clean.sh cleans all redundant files/folders
 4-14.sh is a sample file to automate
 
 input features  : `node_code wlan_code x(m) y(m) z(m)`
+
 output features : `throughput` (for now)
 
 
