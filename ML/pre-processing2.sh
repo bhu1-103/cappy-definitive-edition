@@ -15,3 +15,8 @@ do
     }' OFS=";" "$file" > temp && mv temp "$file"
     cat $file | awk -F ";" '{print $1,$3,$4,$5,$6}' OFS=";" > temp && mv temp $file
 done
+
+for file in out/*.csv
+do
+	tr -s ','  '\n'< $file > temp && mv temp $file
+done
