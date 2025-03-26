@@ -14,6 +14,7 @@ do
         print prefix, number, $2, $4, $5, $6
     }' OFS=";" "$file" > temp && mv temp "$file"
     cat $file | awk -F ";" '{print $1,$3,$4,$5,$6}' OFS=";" > temp && mv temp $file
+    sed -i '1d' $file
 done
 
 for file in out/*.csv
