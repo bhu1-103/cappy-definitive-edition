@@ -12,7 +12,7 @@ mega-clean.sh cleans all redundant files/folders
 
 4-14.sh is a sample file to automate
 
-## [STEP 1](https://github.com/bhu1-103/KAPPI/tree/main/step1)
+## [STEP 1](https://github.com/bhu1-103/cappy-definitive-edition/step1)
 ### Generate randomized input parameters
  - Used java code from ITU ML challenge for generating. `javac *.java; java x-y`
     - [x] x,y coordinates
