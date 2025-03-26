@@ -48,7 +48,7 @@ mega-clean.sh cleans all redundant files/folders
   - [x] Output generated successfully.
   - [ ] Output generated in separate files.
 
-## [STEP 4](https://github.com/bhu1-103/cappy-definitive-edition/blob/main/step4/saigo-no-steppu.sh)
+## [STEP 4](https://github.com/bhu1-103/cappy-definitive-edition/blob/main/step4/step4.sh)
 ### Separate the output parameters.
  - [x] Used a shell script to separate Komondor's single file ouput into separate files and store all ouptuts in their respective folders.
 
