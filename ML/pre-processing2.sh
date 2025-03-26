@@ -9,8 +9,9 @@ do
             number = substr($1, RSTART);
         } else {
             prefix = $1;
-            number = "0";  # Assign 0 explicitly for APs
+            number = "";
         }
-        print prefix, number, ($number == "0" ? "0" : "1"), $2, $3, $4
-    }' OFS=";" "$file" > tmpfile && mv tmpfile "$file"
+        print prefix, number, $2, $4, $5, $6
+    }' OFS=";" "$file" > temp && mv temp "$file"
+    cat $file | awk -F ";" '{print $1,$3,$4,$5,$6}' OFS=";" > temp && mv temp $file
 done
